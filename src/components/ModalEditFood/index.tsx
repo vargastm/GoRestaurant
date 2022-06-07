@@ -19,7 +19,7 @@ interface Food {
 type ModalEditFoodProps = {
   isOpen: boolean
   setIsOpen(): void
-  editingFood: () => void
+  editingFood: Food
   handleUpdateFood: (data: Food) => void
 }
 
